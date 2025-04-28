@@ -9,7 +9,6 @@ import re
 import io
 import phonenumbers
 from phonenumbers import carrier
-from alpha import app
 
 # Telethon config
 api_id = 9418515
