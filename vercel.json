@@ -1,0 +1,8 @@
+{
+  "builds": [
+    { "src": "alpha.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "alpha.py" }
+  ]
+}
